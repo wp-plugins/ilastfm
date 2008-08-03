@@ -44,4 +44,4 @@ Go to iLast.Fm Options and simply click in "Save Settings". Done.
 
 = Where i can get more help, tips and informations? =
 
-Here!(http://leandrow.net/lastfm/ "iLast.Fm - Official Page")
+[Here!](http://leandrow.net/lastfm/ "iLast.Fm - Official Page")
