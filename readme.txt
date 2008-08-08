@@ -3,7 +3,7 @@ Contributors: leandrow
 Tags: lastfm, last.fm, music, tracks, cover, cd, cd cover, album, widget, sidebar, images
 Requires at least: 2.0
 Tested up to: 2.0
-Stable tag: 0.1
+Stable tag: 0.2
 
 iLast.Fm provides a complete integration between your blog and your Last.fm account, show what musics you are listening to and much more!
 
