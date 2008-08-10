@@ -3,7 +3,7 @@
 Plugin Name: iLast.Fm
 Plugin URI: http://leandrow.net/lastfm/
 Description: If you like good music this plugin is for you: it offers a complete integration between your blog and your Last.fm account. You can show on your blog what musics you are listening to, your top albums or your loved tracks. Funny like that!
-Version: 0.1
+Version: 0.2
 Author: Leandro Alonso
 Author URI: http://leandrow.net/
 */
@@ -267,7 +267,6 @@ function ilastfm() {
 				$ilastfm->cleanCache();
 				$ilastfm->display();
 				if (!$ilastfm->error) {
-					update_option('ilastfm_options', $ilastfm_options);
 					switch ($ilastfm_options['cache']) {
 						case 2:
 						$moretime = 6*60*60;
@@ -295,6 +294,7 @@ function ilastfm() {
 					}
 					$expires = time() + $moretime;
 					$ilastfm_options['nextcache'] = $expires;
+					update_option('ilastfm_options', $ilastfm_options);
 				}
 			}
 		} else {
